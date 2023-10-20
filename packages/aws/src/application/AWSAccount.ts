@@ -203,12 +203,7 @@ export default class AWSAccount extends CloudProviderAccount {
         credentials: options.credentials,
       }),
       new S3Service(options),
-      new Athena({
-        ...options,
-        httpOptions: {
-          proxy: "http://proxy.tsp.cn-north-1.aws.unicom.cloud.bmw:8080"
-        }
-      }),
+      new Athena(options),
     )
   }
 

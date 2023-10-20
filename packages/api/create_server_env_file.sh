@@ -36,10 +36,3 @@ echo GCS_CACHE_BUCKET_NAME=$GCS_CACHE_BUCKET_NAME >> .env
 echo CACHE_MODE=$CACHE_MODE >> .env
 echo MONGODB_URI=$MONGODB_URI >> .env
 echo MONGODB_CREDENTIALS=$MONGODB_CREDENTIALS >> .env
-
-echo HTTP_PROXY=http://proxy.tsp.cn-north-1.aws.unicom.cloud.bmw:8080 >> .env
-echo HTTPS_PROXY=http://proxy.tsp.cn-north-1.aws.unicom.cloud.bmw:8080 >> .env
-echo http_proxy=http://proxy.tsp.cn-north-1.aws.unicom.cloud.bmw:8080 >> .env
-echo https_proxy=http://proxy.tsp.cn-north-1.aws.unicom.cloud.bmw:8080 >> .env
-echo NO_PROXY=169.254.169.254,169.254.170.2,/var/run/docker.sock,localhost,127.0.0.1,.muc,.aws.cloud.bmw,.azure.cloud.bmw,.bmw.corp,.bmwgroup.net,.amazonaws.com,.amazonaws.com.cn >> .env
-echo no_proxy=169.254.169.254,169.254.170.2,/var/run/docker.sock,localhost,127.0.0.1,.muc,.aws.cloud.bmw,.azure.cloud.bmw,.bmw.corp,.bmwgroup.net,.amazonaws.com,.amazonaws.com.cn >> .env
